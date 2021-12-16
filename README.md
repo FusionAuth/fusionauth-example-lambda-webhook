@@ -2,6 +2,12 @@
 
 This example uses lambda to handle a Fusionauth webhook.
 
+## Prerequisites
+
+* CDK installed
+* AWS account
+* FusionAuth installed
+
 ## Building
 
 To build this app, run `mvn compile`. This will download the required
@@ -32,3 +38,13 @@ to run the CDK toolkit commands as usual (Maven will recompile as needed):
     <diff against deployed stack>
 
 Based off of the AWS CDK examples: https://github.com/aws-samples/aws-cdk-examples
+
+## Integration
+
+* Add a webhook endpoint in FusionAuth: https://fusionauth.io/docs/v1/tech/events-webhooks/
+* Take actions and see the events show up in s3.
+
+## Todo
+
+* Implement an API key so that not everyone can send info to this webhook.
+* Blog post.
