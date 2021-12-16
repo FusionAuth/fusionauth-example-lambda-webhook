@@ -1,3 +1,3 @@
 {
-  "app": "mvn exec:java -Dexec.mainClass=software.amazon.awscdk.examples.MyWebhookServiceApp"
+  "app": "mvn exec:java -Dexec.mainClass=io.fusionauth.example.webhook.aws.MyWebhookServiceApp"
 }

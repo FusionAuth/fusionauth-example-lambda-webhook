@@ -1,4 +1,4 @@
-package software.amazon.awscdk.examples;
+package io.fusionauth.example.webhook.aws;
 
 import java.util.ArrayList;
 import java.util.HashMap;
