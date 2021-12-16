@@ -4,9 +4,9 @@ This example uses lambda to handle a Fusionauth webhook.
 
 ## Prerequisites
 
-* CDK installed
 * AWS account
-* FusionAuth installed
+* CDK installed: https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html
+* FusionAuth installed: https://fusionauth.io/docs/v1/tech/installation-guide/
 
 ## Building
 
