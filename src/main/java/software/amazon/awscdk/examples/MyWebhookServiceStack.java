@@ -78,7 +78,7 @@ public class MyWebhookServiceStack extends Stack {
 	MethodOptions options = new MethodOptions() {
 		@Override
 		public @Nullable Boolean getApiKeyRequired() {
-			return true;
+			return false;
 		}
 	};
 	api.getRoot().addMethod("POST", postIntegration, options );
@@ -98,9 +98,9 @@ public class MyWebhookServiceStack extends Stack {
 //			return "E5A656AD-DE37-4664-9C20-EA16D7E70B1E";
 //		}
 //	};
-	IApiKey key = api.addApiKey("for-webhook-secret-key" );
+	//IApiKey key = api.addApiKey("for-webhook-secret-key" );
 	
-	plan.addApiKey(key);
+	//plan.addApiKey(key);
 
 	UsagePlanPerApiStage apiStage = new UsagePlanPerApiStage() {
 		@Override
